@@ -1,1 +1,9 @@
-<h1>Show</h1>
+<h1>Restaurant info</h1>
+
+<ul>
+<p><%= @restaurant.name %> </p>
+<p><%= @restaurant.address %></p>
+<p><%= @restaurant.phone_number %></p>
+<p><%= @restaurant.category %></p>
+</ul>
+<p><%= link_to "All restaurants", restaurants_path %></p>
